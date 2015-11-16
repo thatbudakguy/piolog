@@ -417,10 +417,12 @@ table td { font-size: 12px; font-size: 0.75rem; border: 1px solid #ebebeb; borde
 	.author-box-avatar { float: none; width: 100%; margin: 0 0 20px; }
 	.commentlist .comment .avatar { float: none; display: block; margin: 0 0 10px; }
 	.commentlist .comment .vcard { margin-bottom: 10px; }
+    .slide p { display: none; }
 }
 @media only screen and (max-width: 420px) {
 	#mh-wrapper, .wrapper-inner { min-width: 160px; }
 	.logo-title { font-size: 28px; font-size: 1.75rem; }
-	.logo-tagline { font-size: 12px; font-size: 0.75rem; margin-bottom: 10px; }
+	.logo-tagline { font-size: 8px; font-size: 0.5rem; margin-bottom: 10px; }
 	.sb-widget .search-form .search-field { width: 86%; }
+    .slide p { display: none; }
 }
